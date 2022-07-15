@@ -14,12 +14,18 @@ Please do not use any frameworks such as Laravel or Symfony.
 
 # Installation
 Web server running PHP
+
 Mac Users: https://www.mamp.info/en/mamp-pro/mac/
 Windows Users: https://www.wampserver.com/en/
 Linux Users: LAMP
 
 Create a sym link from the web server public folder to the app folder
-´´ ln -s [pwd]/zoo-simulator-navarik .
+```bash
+ln -s [pwd]/zoo-simulator-navarik .
+```
 
 # Demo
 https://zoo-simulator-app-oea22.ondigitalocean.app/
+
+# Solution
+Designed a MVC solution using PHP without any external libraries or frameworks.
