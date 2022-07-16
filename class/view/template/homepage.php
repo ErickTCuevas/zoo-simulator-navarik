@@ -81,7 +81,7 @@
     </div>
     <div id="gameover" class="current_time"><h2><strong>Game Over<strong></h2></div>
     <div id="playagain" class="controls">
-      <center><a class="controls__button" href="/">Play Again</a></center>
+      <center><a class="controls__button" href="./">Play Again</a></center>
     </div>
     <div id="controls" class="controls">
       <?php echo '<a  class="controls__button" href="?route='. $template_data['feed_uri'] .'&data='.$template_data['rendered_data'] .'">Feed Animals</a>';?>
